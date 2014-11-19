@@ -25,7 +25,7 @@ class RequireJSServiceProvider extends ServiceProvider {
 	public function boot() {
 		$this->package('panugaling/require-js');
 		
-		AliasLoader::getInstance()->alias('Required', 'Panugaling\RequireJS\RequireJS');
+		AliasLoader::getInstance()->alias('Require', 'Panugaling\RequireJS\RequireJS');
 	}
 	/**
 	 * Get the services provided by the provider.
